@@ -144,26 +144,28 @@ p {
 .modal {
 background: royalblue;
 display: flex;
-justify-content: center;
+/* justify-content: center;
 flex-direction: column;
 display: inline-block;
-border-radius: 5%;
+border-radius: 5%; */
 
 }
 
 .call {
-  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 30px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 100px; */
 }
 
 .instructions {
-  padding-left: 100px;
+  display: flex;
+  /* padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 30px; */
 }
 
 .signup2 {
-
-
 }
